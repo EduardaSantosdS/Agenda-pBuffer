@@ -1,4 +1,4 @@
-__Eduarda dos Santos__
+__Eduarda dos Santos da Silva__
 
 O desafio é não poder criar variáveis e sim um buffer de memória (void *pBuffer). Nisso foi feito o trabalho que o Sistema Operacional faria para organizar a memória.
 
@@ -15,7 +15,7 @@ No final é gravado um vídeo explicando a lógica utilizada por trás desse có
 
 Abaixo, irei deixar esses resultados que me foram dados pelo DrMemory:
 
-Dr. Memory version 2.6.0 build 0 built on Sep 21 2023 17:48:48
+"Dr. Memory version 2.6.0 build 0 built on Sep 21 2023 17:48:48
 Windows version: WinVer=105;Rel=2009;Build=19045;Edition=Enterprise
 Dr. Memory results for pid 6300: "pBuffer.exe"
 Application cmdline: ""D:\UsuÃ¡rios\Eduarda\Ãrea de Trabalho\agenda-pbuffer\output\pBuffer.exe""
@@ -78,7 +78,7 @@ ERRORS FOUND:
 ERRORS IGNORED:
       6 unique,     6 total,   4457 byte(s) of still-reachable allocation(s)
          (re-run with "-show_reachable" for details)
-Details: D:\UsuÃ¡rios\Eduarda\Ãrea de Trabalho\drmemory\logs\DrMemory-pBuffer.exe.6300.000\results.txt
+Details: D:\UsuÃ¡rios\Eduarda\Ãrea de Trabalho\drmemory\logs\DrMemory-pBuffer.exe.6300.000\results.txt"
 
 Os erros mostrados são os que o DrMemory encontra até mesmo na bibliotecas utilizadas, visto isso eles devem ser ignorados por não serem relevantes e não se tratar do código.
 
